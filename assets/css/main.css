@@ -3251,3 +3251,23 @@ input, select, textarea {
 			}
 
 	}
+
+
+	/* extra stuff i added */
+	/* TWO projects */
+
+	/* project buttons */
+	.proj-button-container {
+		margin-bottom: 1rem;
+		display: flex;
+		justify-content: center;
+		/* width: .5rem; */
+	}
+
+	#proj-button {
+		margin: .2rem;
+		padding: 0 .2rem;
+	}
+	.proj {
+
+	}
