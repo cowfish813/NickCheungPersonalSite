@@ -2680,38 +2680,7 @@ input, select, textarea {
 			}
 
 /* Main */
-	.skills {
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
-	}
-	.skills li {
-		list-style-type: none;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin: 1rem;
-	}
-	.skills li img {
-		height: 4rem;
-		width: 4rem;
-		/* position: relative; */
-	}
-	.skills li img:hover {
-		/* position: relative; */
-		opacity: 50;
-	}
-	.skills li p {
-		/* display: none; */
-		height: 4rem;
-		width: 4rem;
-		opacity: 0;
-		position: absolute;
-	}
-	.skills li p:hover {
-		/* display: ; */
-		opacity: 100;
-	}
+
 
 	#main {
 		margin-left: 35%;
