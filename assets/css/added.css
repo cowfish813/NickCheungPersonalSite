@@ -39,3 +39,7 @@
     /* display: ; */
     opacity: 100;
 }
+
+.grey_scale:hover {
+    filter: grayscale(0.9);
+}
