@@ -2,50 +2,12 @@
     font-size: larger;
 }
 
-/* .skill-svg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.skills li {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem;
-}
-.skills li img {
-    height: 4rem;
-    width: 4rem;
-}
-
-.skills li img:hover {
-    opacity: 50;
-}
-
-.skills li p {
-    height: 4rem;
-    width: 4rem;
-    opacity: 0;
-    position: absolute;
-}
-
-.skills li p:hover {
-    opacity: 100;
-} */
 .skills_container {
     min-width: 40%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     perspective: 30rem;
-        /* what does perspective do? */
 }
 
 .grey_scale:hover {
