@@ -25,6 +25,9 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/added.css" />
 		<link rel="icon" type="image/png" href="images/favicon.ico">
+		<!-- Flickity -->
+		<link rel="stylesheet" href="Flickity/flickity.css" media="screen">
+		
 	</head>
 	<body class="is-preload">
 		<!-- Header -->
@@ -138,67 +141,69 @@
 					<section id="two">
 						<h2>Freelance Work & Projects</h2>
 						<div class="row">
-
-							<article class="col-6 col-12-xsmall DELETEwork-item">
-								<a target="_blank" href="https://my.tbd.health" class="image fit thumb"><img src="images/thumbs/Screen Shot 2021-02-24 at 11.54.59 AM.png" alt="" /></a>
-								<div class="proj-button-container">
-									<a target="_blank" href="https://my.tbd.health" class="button" id="proj-button">Live</a>
-								</div>
-								<h3>TBD Health</h3>
-
-								<p class="proj-text">
-									Service for at-home STD/STI screening kits that are accurate, easy to use, and built for women
-								</p>
-							</article>
-
-							<article class="col-6 col-12-xsmall DELETEwork-item">
-								<a target="_blank" href="https://supertrampapp.herokuapp.com/#/" class="image fit thumb"><img src="images/thumbs/Screen Shot 2020-10-09 at 6.02.17 PM.png" alt="" /></a>
-								<div class="proj-button-container">
-									<a target="_blank" href="https://supertrampapp.herokuapp.com/#/" class="button" id="proj-button">Live</a>
-									<a target="_blank" href="https://github.com/cowfish813/Supertramp" class="button" id="proj-button">Github</a>
-								</div>
-								<h3>SuperTramp</h3>
-								<p class="proj-text">Camp near or in your favorite parks, where available, anywhere around the world!</p>
-							</article>
-
-							<article class="col-6 col-12-xsmall DELETEwork-item">
-								<a target="_blank" href="https://cowfish813.github.io/SF-AQI/" class="image fit thumb"><img src="./images/thumbs/Screen Shot 2020-10-09 at 6.03.29 PM.png" alt="" /></a>
-								<div class="proj-button-container">
-									<a target="_blank" href="https://cowfish813.github.io/SF-AQI/" class="button" id="proj-button">Live</a>
-									<a target="_blank" href="https://github.com/cowfish813/D3.js" class="button" id="proj-button">Github</a>
-								</div>
-								<h3>San Francisco AQI</h3>
-								<p class="proj-text">Observe previous AQI trends and current levels powered by D3.js and AQIcn.org</p>
-							</article>
-
-
-
-
-							<article class="col-6 col-12-xsmall DELETEwork-item">
-								<a target="_blank" href="" class="image fit thumb"><img src="images/thumbs/Screen Shot 2020-08-06 at 12.40.01 AM.png" alt="" /></a>
+<!--  -->	
+							<div class="main-gallery js-flickity hun" data-flickity-options='{ "cellAlign": "center", "contain": true }'>
+								<article class="col-6 gallery-cell col-12-xsmall">
+									<a target="_blank" href="https://my.tbd.health" class="image fit thumb"><img src="images/thumbs/Screen Shot 2021-02-24 at 11.54.59 AM.png" alt="" /></a>
 									<div class="proj-button-container">
-										<!-- <a target="_blank" href="https://food-harmony-sf.herokuapp.com/#/" class="button proj" id="proj-button">Live</a> -->
-										<a target="_blank" href="https://github.com/jamesberke/food_harmony" class="button proj" id="proj-button">Github</a>
+										<a target="_blank" href="https://my.tbd.health" class="button" id="proj-button">Live</a>
 									</div>
-								<h3>Food Harmony</h3>
-								<p>Hot Meals in your Area! Leave complicated decision making to food near you!</p>
-							</article>
+									<h3>TBD Health</h3>
 
-							<!-- <article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Quam neque phasellus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article> -->
+									<p class="proj-text">
+										Service for at-home STD/STI screening kits that are accurate, easy to use, and built for women
+									</p>
+								</article>
+
+								<article class="col-6 gallery-cell col-12-xsmall ">
+									<a target="_blank" href="https://supertrampapp.herokuapp.com/#/" class="image fit thumb"><img src="images/thumbs/Screen Shot 2020-10-09 at 6.02.17 PM.png" alt="" /></a>
+									<div class="proj-button-container">
+										<a target="_blank" href="https://supertrampapp.herokuapp.com/#/" class="button" id="proj-button">Live</a>
+										<a target="_blank" href="https://github.com/cowfish813/Supertramp" class="button" id="proj-button">Github</a>
+									</div>
+									<h3>SuperTramp</h3>
+									<p class="proj-text">Camp near or in your favorite parks, where available, anywhere around the world!</p>
+								</article>
+
+								<article class="col-6 gallery-cell col-12-xsmall ">
+									<a target="_blank" href="https://cowfish813.github.io/SF-AQI/" class="image fit thumb"><img src="./images/thumbs/Screen Shot 2020-10-09 at 6.03.29 PM.png" alt="" /></a>
+									<div class="proj-button-container">
+										<a target="_blank" href="https://cowfish813.github.io/SF-AQI/" class="button" id="proj-button">Live</a>
+										<a target="_blank" href="https://github.com/cowfish813/D3.js" class="button" id="proj-button">Github</a>
+									</div>
+									<h3>San Francisco AQI</h3>
+									<p class="proj-text">Observe previous AQI trends and current levels powered by D3.js and AQIcn.org</p>
+								</article>
+
+
+
+
+								<article class="col-6 gallery-cell col-12-xsmall ">
+									<a target="_blank" href="https://github.com/jamesberke/food_harmony" class="image fit thumb"><img src="images/thumbs/Screen Shot 2020-08-06 at 12.40.01 AM.png" alt="" /></a>
+										<div class="proj-button-container">
+											<!-- <a target="_blank" href="https://food-harmony-sf.herokuapp.com/#/" class="button proj" id="proj-button">Live</a> -->
+											<a target="_blank" href="https://github.com/jamesberke/food_harmony" class="button proj" id="proj-button">Github</a>
+										</div>
+									<h3>Food Harmony</h3>
+									<p>Hot Meals in your Area! Leave complicated decision making to food near you!</p>
+								</article>
+
+								<!-- <article class="col-6 col-12-xsmall work-item">
+									<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
+									<h3>Quam neque phasellus</h3>
+									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								</article>
+								<article class="col-6 col-12-xsmall work-item">
+									<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
+									<h3>Nunc enim commodo aliquet</h3>
+									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								</article>
+								<article class="col-6 col-12-xsmall work-item">
+									<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
+									<h3>Risus ornare lacinia</h3>
+									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								</article> -->
+							</div>
 						</div>
 						<ul class="actions">
 							<!-- <li><a href="#" class="button">Full Portfolio</a></li> -->
@@ -575,6 +580,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					</ul>
 				</div>
 			</footer>
+			<script  src="Flickity/flickity.pkgd.min.js"></script>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
