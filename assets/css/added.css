@@ -8,6 +8,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     perspective: 30rem;
+    justify-content: center;
 }
 
 .grey_scale:hover {
